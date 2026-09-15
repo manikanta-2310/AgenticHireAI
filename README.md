@@ -15,6 +15,11 @@
   <strong>An autonomous ATS platform where candidates apply publicly, AI agents evaluate resumes with RAG intelligence, and recruiters monitor & approve decisions on an interactive canvas.</strong>
 </p>
 
+<p align="center">
+  🌐 <strong>Live Demo:</strong> <a href="https://agentic-hire-ai-lake.vercel.app" target="_blank"><strong>agentic-hire-ai-lake.vercel.app</strong></a> &nbsp;|&nbsp; 
+  ⚡ <strong>Backend API:</strong> <a href="https://agentichireai-oe83.onrender.com/health" target="_blank"><strong>agentichireai-oe83.onrender.com</strong></a>
+</p>
+
 [Key Features](#-key-features) • [Architecture](#-system-architecture) • [Multi-Agent Pipeline](#-multi-agent-pipeline) • [Quick Start](#-quick-start) • [Deployment](#-deployment-guide)
 
 </div>
