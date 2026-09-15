@@ -1,0 +1,60 @@
+{
+  "workflow_name": "default-hiring-workflow",
+  "version": "1.0.0",
+  "description": "Autonomous multi-agent recruitment pipeline with recruiter approval checkpoint",
+  "workflow": [
+    "resume_parser",
+    "embedding_agent",
+    "matching_agent",
+    "shortlisting_agent",
+    "human_approval",
+    "interview_agent",
+    "email_agent"
+  ],
+  "node_configs": {
+    "resume_parser": {
+      "agent": "ResumeParserAgent",
+      "timeout_ms": 30000,
+      "required": true
+    },
+    "embedding_agent": {
+      "agent": "EmbeddingAgent",
+      "timeout_ms": 30000,
+      "chunk_size": 500,
+      "collection_name": "resumes",
+      "required": true
+    },
+    "matching_agent": {
+      "agent": "MatchingAgent",
+      "timeout_ms": 45000,
+      "rag_enabled": true,
+      "top_k": 5,
+      "min_similarity": 0.75,
+      "required": true
+    },
+    "shortlisting_agent": {
+      "agent": "ShortlistingAgent",
+      "timeout_ms": 15000,
+      "required": true
+    },
+    "human_approval": {
+      "type": "checkpoint",
+      "requires_recruiter_action": true,
+      "actions": ["approve", "reject"]
+    },
+    "interview_agent": {
+      "agent": "InterviewAgent",
+      "timeout_ms": 45000,
+      "question_count": 5,
+      "include_coding_task": true,
+      "required": true
+    },
+    "email_agent": {
+      "agent": "EmailAgent",
+      "timeout_ms": 20000,
+      "send_on_shortlist": true,
+      "send_on_rejection": true,
+      "required": true
+    }
+  }
+}

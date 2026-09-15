@@ -1,0 +1,28 @@
+John Doe
+john.doe@example.com | (555) 234-5678 | San Francisco, CA | linkedin.com/in/johndoe
+
+SUMMARY:
+Senior Frontend Developer with 4+ years of expertise building high-performance web applications using React, Next.js, JavaScript, and Tailwind CSS. Passionate about state management, WebSockets, and UI accessibility.
+
+SKILLS:
+- Languages & Core: JavaScript (ES6+), HTML5, CSS3, TypeScript
+- Frameworks & Libraries: React, Next.js, Redux Toolkit, Zustand, Tailwind CSS
+- Tooling: Webpack, Vite, Git, Jest, Playwright
+- Architecture: Micro-frontends, REST APIs, GraphQL, Responsive Design
+
+EXPERIENCE:
+Senior Frontend Engineer | NovaTech Cloud (2022 - Present)
+- Architected enterprise dashboard using React, Next.js, and Zustand, improving page load speed by 42%.
+- Built real-time collaborative canvas with interactive graph visualization using React Flow.
+- Standardized UI component library with Tailwind CSS and Radix primitives.
+
+Frontend Developer | PixelCraft Labs (2020 - 2022)
+- Developed responsive SPAs using React, JavaScript, CSS, and REST API integrations.
+- Increased mobile engagement by 35% through mobile-first performance optimizations.
+
+EDUCATION:
+B.S. in Computer Science | University of California, Berkeley (2016 - 2020)
+
+PROJECTS:
+- AgentFlow: Interactive visual node-based workflow builder built with React and Tailwind CSS.
+- CloudMetrics: Real-time analytics dashboard with WebSockets and dynamic charts.

@@ -1,0 +1,45 @@
+{
+  "resume_parser": {
+    "system": "You are a professional HR Resume Extraction AI. Your task is to extract structured biographical, educational, professional experience, and technical skill data from raw resume text. Respond ONLY with valid JSON conforming to the requested schema. Do not include markdown fences or conversational chatter.",
+    "schema": {
+      "name": "string",
+      "email": "string",
+      "phone": "string",
+      "location": "string",
+      "summary": "string",
+      "skills": ["string"],
+      "experience_years": "number",
+      "experience": [
+        {
+          "company": "string",
+          "role": "string",
+          "duration": "string",
+          "highlights": ["string"]
+        }
+      ],
+      "education": [
+        {
+          "degree": "string",
+          "institution": "string",
+          "year": "string"
+        }
+      ],
+      "projects": [
+        {
+          "name": "string",
+          "technologies": ["string"],
+          "description": "string"
+        }
+      ]
+    }
+  },
+  "matching_agent": {
+    "system": "You are an AI Talent Matching Specialist. Evaluate the candidate's parsed profile against the role's hiring specification and organizational RAG context. Calculate precise category scores, identify skill overlap, gaps, and generate actionable rationale. Output ONLY valid JSON."
+  },
+  "shortlisting_agent": {
+    "system": "You are an automated ATS Shortlisting Decision Agent. Apply the hiring specification rules and thresholds to determine final candidate progression. Output ONLY valid JSON."
+  },
+  "interview_agent": {
+    "system": "You are a Senior Technical Interview Architect. Based on the candidate's skills, experience, missing skills from matching, and the job spec, generate tailored technical interview questions, grading rubrics, and a practical coding challenge. Output ONLY valid JSON."
+  }
+}

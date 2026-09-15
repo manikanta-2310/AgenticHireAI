@@ -1,0 +1,26 @@
+{
+  "role": "Backend Developer",
+  "title": "Backend Engineer",
+  "department": "Engineering",
+  "experience_level": "Mid-Senior",
+  "min_experience_years": 3,
+  "required_skills": [
+    "Node.js",
+    "Express.js",
+    "JavaScript",
+    "MongoDB",
+    "REST APIs"
+  ],
+  "preferred_skills": [
+    "LangChain",
+    "LangGraph",
+    "Vector Databases",
+    "Docker",
+    "Redis"
+  ],
+  "minimum_score": 75,
+  "shortlist_threshold": 80,
+  "hold_threshold": 60,
+  "interview_rounds": 2,
+  "auto_advance_score": 85
+}

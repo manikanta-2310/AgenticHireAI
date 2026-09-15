@@ -1,0 +1,25 @@
+{
+  "role": "Frontend Developer",
+  "title": "Senior Frontend Developer",
+  "department": "Engineering",
+  "experience_level": "Senior",
+  "min_experience_years": 3,
+  "required_skills": [
+    "React",
+    "JavaScript",
+    "CSS",
+    "HTML"
+  ],
+  "preferred_skills": [
+    "Next.js",
+    "Tailwind CSS",
+    "Redux",
+    "Zustand",
+    "WebSockets"
+  ],
+  "minimum_score": 75,
+  "shortlist_threshold": 80,
+  "hold_threshold": 60,
+  "interview_rounds": 2,
+  "auto_advance_score": 85
+}

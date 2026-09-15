@@ -1,0 +1,22 @@
+Sarah Jenkins
+sarah.jenkins@example.com | (555) 987-6543 | New York, NY
+
+SUMMARY:
+Backend Engineer with 5 years of experience building resilient microservices in Node.js, Express.js, and MongoDB. Specialized in vector databases, RAG architecture, and asynchronous workflow pipelines.
+
+SKILLS:
+- Languages & Runtimes: JavaScript, Node.js, Python, TypeScript
+- Frameworks & DBs: Express.js, MongoDB, Mongoose, Qdrant, Redis, PostgreSQL
+- AI & Orchestration: LangChain, LangGraph, LLM Agent workflows, RAG pipelines
+- DevOps: Docker, Docker Compose, CI/CD, AWS
+
+EXPERIENCE:
+Lead Backend Engineer | Agentic Systems (2022 - Present)
+- Designed and built LangGraph-based autonomous agent execution pipeline with state checkpoints.
+- Integrated Qdrant vector database with dense embedding search for intelligent document retrieval.
+
+Backend Developer | DataStream Corp (2019 - 2022)
+- Built scalable Express.js REST APIs and implemented JWT auth, rate limiting, and caching.
+
+EDUCATION:
+B.S. in Software Engineering | Columbia University (2015 - 2019)

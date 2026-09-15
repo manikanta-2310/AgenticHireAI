@@ -1,0 +1,19 @@
+{
+  "max_retries": 3,
+  "retry_delay_ms": 5000,
+  "backoff_multiplier": 1.5,
+  "retryable_errors": [
+    "LLM_TIMEOUT",
+    "LLM_RATE_LIMIT",
+    "VECTOR_DB_TIMEOUT",
+    "EMAIL_API_FAILURE",
+    "NETWORK_ERROR"
+  ],
+  "non_retryable_errors": [
+    "INVALID_PDF",
+    "CORRUPT_FILE",
+    "MALFORMED_JSON",
+    "SCHEMA_VALIDATION_ERROR",
+    "AUTHENTICATION_ERROR"
+  ]
+}

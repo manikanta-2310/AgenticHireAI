@@ -1,0 +1,23 @@
+{
+  "weights": {
+    "required_skills": 0.40,
+    "preferred_skills": 0.20,
+    "experience_years": 0.20,
+    "project_relevance": 0.15,
+    "education": 0.05
+  },
+  "decision_thresholds": {
+    "shortlist": 80,
+    "hold": 60,
+    "reject": 0
+  },
+  "experience_scaling": {
+    "penalty_per_year_gap": 15,
+    "max_bonus_for_seniority": 10
+  },
+  "skills_scoring": {
+    "exact_match_score": 100,
+    "partial_match_score": 50,
+    "missing_score": 0
+  }
+}
