@@ -3,7 +3,7 @@
 # 🤖 AgenticHire.AI
 ### Enterprise Spec-Driven Multi-Agent AI Recruitment & ATS Platform
 
-[![CI Pipeline](https://github.com/manikanta-2310/AgenticHireAI/actions/workflows/ci.yml/badge.svg)](https://github.com/manikanta-2310/AgenticHireAI/actions/workflows/ci.yml)
+[![CI / CD Pipeline](https://github.com/manikanta-2310/AgenticHireAI/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/manikanta-2310/AgenticHireAI/actions/workflows/ci.yml)
 [![Next.js](https://img.shields.io/badge/Next.js%2015-App%20Router-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-5.x-000000?style=for-the-badge&logo=express)](https://expressjs.com/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Agent%20Orchestration-blue?style=for-the-badge)](https://langchain.com/)
