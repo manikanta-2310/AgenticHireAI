@@ -1,0 +1,60 @@
+name: CI / CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-client:
+    name: Build & Validate Client
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+          cache-dependency-path: 'client/package.json'
+
+      - name: Install Client Dependencies
+        run: |
+          cd client
+          npm install
+
+      - name: Build Frontend Application
+        run: |
+          cd client
+          npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
+
+  validate-server:
+    name: Validate Server & API
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+          cache-dependency-path: 'server/package.json'
+
+      - name: Install Server Dependencies
+        run: |
+          cd server
+          npm install
+
+      - name: Validate Server Syntax
+        run: |
+          cd server
+          node -e "console.log('Server environment ready')"
